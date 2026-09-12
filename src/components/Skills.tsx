@@ -4,7 +4,7 @@ import { SectionHeading } from './SectionHeading'
 
 export function Skills() {
   return (
-    <section id="skills" className="section-band">
+    <section id="skills" className="section-band scroll-mt-24">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Skills"

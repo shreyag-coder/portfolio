@@ -4,7 +4,7 @@ import { SectionHeading } from './SectionHeading'
 
 export function Experience() {
   return (
-    <section id="experience" className="section-band">
+    <section id="experience" className="section-band scroll-mt-24">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Experience"

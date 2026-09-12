@@ -4,7 +4,7 @@ import { SectionHeading } from './SectionHeading'
 
 export function Projects() {
   return (
-    <section id="projects" className="py-20 sm:py-24">
+    <section id="projects" className="scroll-mt-24 py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Projects"

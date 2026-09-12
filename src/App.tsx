@@ -10,7 +10,7 @@ import { Skills } from './components/Skills'
 
 export default function App() {
   return (
-    <div id="top" className="min-h-svh">
+    <div id="top" className="min-h-svh scroll-mt-24">
       <a href="#about" className="skip-link">
         Skip to content
       </a>

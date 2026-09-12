@@ -5,7 +5,7 @@ const photoUrl = `${import.meta.env.BASE_URL}${profile.photoSrc}`
 
 export function Hero() {
   return (
-    <section id="about" aria-labelledby="hero-name" className="relative overflow-hidden">
+    <section id="about" aria-labelledby="hero-name" className="relative scroll-mt-24 overflow-hidden">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(95,111,88,0.08),transparent_50%),radial-gradient(ellipse_at_bottom_left,rgba(140,115,85,0.07),transparent_45%)]"
@@ -16,14 +16,14 @@ export function Hero() {
           <figure className="relative mx-auto w-[min(100%,20rem)] lg:w-full lg:max-w-[22rem]">
             <div
               aria-hidden="true"
-              className="absolute -inset-3 rounded-[2rem] border border-sage/20"
+              className="absolute -inset-3 rounded-[2rem] border border-sage/35"
             />
-            <div className="relative overflow-hidden rounded-[1.6rem] bg-sand shadow-[0_24px_50px_-28px_rgba(43,36,30,0.45)] ring-1 ring-line">
+            <div className="relative overflow-hidden rounded-[1.6rem] bg-sand shadow-[0_24px_50px_-28px_rgba(43,36,30,0.45)] ring-1 ring-sage/25">
               <div
                 aria-hidden="true"
-                className="flex aspect-square w-full items-center justify-center bg-[radial-gradient(circle_at_30%_20%,#fffdf8,transparent_45%),linear-gradient(160deg,#efe6d6,#f4efe6_55%,#e7eddf)]"
+                className="flex aspect-square w-full items-center justify-center bg-[radial-gradient(circle_at_30%_20%,#fffdf8,transparent_45%),linear-gradient(160deg,#eadfcb,#f3eee4_55%,#dfe6d8)]"
               >
-                <span className="text-6xl font-semibold tracking-tight text-ink/80">SG</span>
+                <span className="text-6xl font-semibold tracking-tight text-sage">SG</span>
               </div>
               <img
                 src={photoUrl}
