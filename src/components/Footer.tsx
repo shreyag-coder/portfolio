@@ -1,0 +1,14 @@
+import { profile } from '../content'
+
+export function Footer() {
+  return (
+    <footer className="border-t border-line">
+      <div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm text-ink-soft sm:flex-row sm:items-center sm:justify-between sm:px-8">
+        <p>
+          © {new Date().getFullYear()} {profile.name}
+        </p>
+        <p>Software engineer · MCDS @ Carnegie Mellon</p>
+      </div>
+    </footer>
+  )
+}
