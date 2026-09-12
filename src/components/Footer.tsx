@@ -7,7 +7,13 @@ export function Footer() {
         <p>
           © {new Date().getFullYear()} {profile.name}
         </p>
-        <p>Software engineer · MCDS @ Carnegie Mellon</p>
+        <p className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <span>{profile.location}</span>
+          <span aria-hidden="true">·</span>
+          <a href={profile.phoneHref} className="transition-colors hover:text-ink">
+            {profile.phone}
+          </a>
+        </p>
       </div>
     </footer>
   )

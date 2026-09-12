@@ -1,6 +1,6 @@
 # Shreya Gupta — Portfolio
 
-Personal portfolio site for [Shreya Gupta](https://www.linkedin.com/in/shreya-gupta-0367b11b8): software engineer focused on recommendations and product discovery, incoming M.S. Computational Data Science (MCDS) student at Carnegie Mellon University.
+Personal portfolio site for [Shreya Gupta](https://www.linkedin.com/in/shreya-gupta-0367b11b8): software engineer in Pittsburgh, Pennsylvania, focused on recommendations and product discovery, incoming M.S. Computational Data Science (MCDS) student at Carnegie Mellon University.
 
 Built with **Vite**, **React**, **TypeScript**, and **Tailwind CSS**. It is a static single-page site with in-page navigation.
 
