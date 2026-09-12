@@ -57,9 +57,9 @@ export function Contact() {
                 Location
               </p>
               <p className="mt-3 text-lg font-medium tracking-tight text-ink">
-                Raipur, India
+                Pittsburgh, Pennsylvania, US
               </p>
-              <p className="mt-1 text-sm text-ink-soft">Pittsburgh, PA for MCDS</p>
+              <p className="mt-1 text-sm text-ink-soft">MCDS at Carnegie Mellon</p>
             </div>
           </div>
         </Reveal>

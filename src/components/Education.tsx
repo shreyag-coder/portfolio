@@ -6,7 +6,7 @@ export function Education() {
   return (
     <section id="education" className="scroll-mt-24 py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
-        <SectionHeading eyebrow="Education" title="From Raipur to Pittsburgh" />
+        <SectionHeading eyebrow="Education" title="Carnegie Mellon and an honours CS degree" />
 
         <div className="mx-auto grid max-w-4xl gap-5 md:grid-cols-2">
           {education.map((item, index) => (

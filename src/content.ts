@@ -1,9 +1,9 @@
 export const profile = {
   name: 'Shreya Gupta',
   headline: 'Software engineer · Recommendations & product discovery · MCDS @ Carnegie Mellon',
-  location: 'Raipur, India · Pittsburgh, PA',
-  phone: '+91-9770563977',
-  phoneHref: 'tel:+919770563977',
+  location: 'Pittsburgh, Pennsylvania, US',
+  phone: '(412) 430-1011',
+  phoneHref: 'tel:+14124301011',
   email: '2002sgupta@gmail.com',
   emailHref: 'mailto:2002sgupta@gmail.com',
   linkedinLabel: 'linkedin.com/in/shreya-gupta-0367b11b8',
